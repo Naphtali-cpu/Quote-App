@@ -12,6 +12,10 @@ So far there are no Contributors in this project i built the web-app by myself.
 
 ## Technologies Used
 
+* ANGULAR cli
+* HTML 5
+* CSS 3
+* JAVASCRIPT
 
 ## Running unit tests
 
