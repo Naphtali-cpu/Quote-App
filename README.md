@@ -6,8 +6,7 @@ Naphtali Makori
 
 This is an angular project that enables a user to add some quote, read some quotes, upvote or downvote quote he/she has read and delete the quote he/she has quoted.
 
-
-##
+## Contributors
 
 
 
