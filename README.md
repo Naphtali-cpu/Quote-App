@@ -7,7 +7,7 @@
 
 ## Code scaffolding
 
-`.
+
 
 ## Build
 
