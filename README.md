@@ -1,5 +1,6 @@
-# Quote
+# Quote-App
 ## Author
+Naphtali Makori
 
 
 
