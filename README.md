@@ -10,7 +10,7 @@ This is an angular project that enables a user to add some quote, read some quot
 
 So far there are no Contributors in this project i built the web-app by myself.
 
-## Build
+## Technologies Used
 
 
 ## Running unit tests
