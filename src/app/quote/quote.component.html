@@ -1,0 +1,86 @@
+<div id="home">
+ <header id="home">                                          
+   <div class="row banner">
+     <div class="banner-text">
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+        <h1 class="responsive-headline">This Is Quoty Web-App</h1>
+         <h3>A Web-Application <span>Where one </span> | <span>can create quotes and have their</span> quotes <span>voted on.</span><br>
+         <a class="smoothscroll" href="#quote">Scroll here</a>
+        and get <a class="smoothscroll" href="#quote">started!</a>.</h3>
+        <hr/>
+     </div><br>
+     <div class="mouse-click">
+      <a href="#quote"><img src="./assets/scroll.png" alt=" mouse_click" id="mouse-click" style="color: #fff;"></a> 
+     </div>
+   </div>
+   
+  </header>
+</div>
+<div id="quote">
+  <main class="site-main">
+    <section id="home" class="site-banner">
+      <div class="container"><br>
+        <br>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 banner-image">
+            <img src="./assets/quote1.svg" loading="lazy" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+        </div>
+        </div>
+      </div>
+    </section><br>
+    <br>
+    <br>  
+
+
+<div id="check">
+  <main class="site-main">
+    <section id="home" class="site-banner">
+      <div class="container">
+        <h1 class="responsive-headline">YOUR QUOTES</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <div *ngFor='let quote of quotes;let i = index'>
+                <div>
+                    <h4 id={{i}} appStrikethrough>{{quote.name}} Published on: {{quote.completeDate|date|uppercase}}</h4>
+                </div>
+                <button (click)='toggleDetails(i)' class="btn btn-primary">View Quote</button>
+                <div *ngIf='quote.showDescription'>
+                    <app-quote-detail [goal]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 banner-image">
+            <img src="./assets/check.svg" loading="lazy" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <a href="#home"><img src="./assets/up.png" alt=" mouse_click" id="mouse-click1" style=""></a> 
+
+    </section>
+    <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+            <ul class="copyright">
+               <li>&copy; Copyright 2021 NaphtaliMakori</li> 
+            </ul>
+         </div>
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+      </div>
+
+      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+ 
+   </footer> <!-- Footer End-->
+
