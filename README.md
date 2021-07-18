@@ -4,7 +4,7 @@ Naphtali Makori
 
 ## Description
 
-This is an angular project that enables a user to add some quote, read some quotes
+This is an angular project that enables a user to add some quote, read some quotes, upvote or downvote quote he/she has read
 
 
 ##
