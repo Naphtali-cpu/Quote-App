@@ -23,6 +23,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Contact Information
 
+    Email- naphtali919@gmail.com
+    Mobile Number- +254727991993
+    Instagram @ _naphtalimakori
+    Facebook @ Naphtali McOrri
+    Linked In @ Naphtali Makori
+
 Here is my Contact information:
 ## Further help
 
