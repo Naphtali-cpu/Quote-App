@@ -2,10 +2,9 @@
 ## Author
 Naphtali Makori
 
-
-
-
 ## Description
+
+This is an angular project that enables a user to add some quote, read some quotes
 
 
 ##
