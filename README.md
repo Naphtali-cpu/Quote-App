@@ -10,6 +10,13 @@ This is an angular project that enables a user to add some quote, read some quot
 
 So far there are no Contributors in this project i built the web-app by myself.
 
+## Behaviour Driven Development (BDD)
+|Behaviour 	           |    Input 	                 |       Output          |
+|----------------------------------------------|:-----------------------------------:|-----------------------------:|       
+|Page loads.                         |   User input their name, add some quote and the author of the quote select date published and finally clicks the add quote toggle button.                   |The quote added by the user pops on the your quotes section, they can click on view quote and see a quote that one can upvote and downvote and still delete their quote.     |                       |
+
+
+
 ## Technologies Used
 
 * ANGULAR cli
